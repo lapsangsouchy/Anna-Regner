@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+html {
+  background-image: url('images/background2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 2rem;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: underline;
+  color: rgb(70, 70, 70);
+}
+
+h2 {
+  margin: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+h2:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 922px) and (orientation: portrait) {
+  html {
+    background-image: url('images/background2Portrait.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+}
