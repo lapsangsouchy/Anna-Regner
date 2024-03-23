@@ -58,4 +58,6 @@ h2:hover {
     background-size: contain;
     background-position: center;
   }
+  h1 {
+    font-size: 1.2rem;
 }
